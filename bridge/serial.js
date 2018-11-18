@@ -10,6 +10,7 @@ function start(path, baudRate, log) {
   log('Serial Connection Active', path, baudRate);
 
   lineStream.on('data', (update) => {
+    log('Serial: ' + update);
     global.callbacks.forEach(element => element(update.trim()));
   });
 }
