@@ -1,0 +1,6 @@
+{
+    "sketch": "intercom.ino",
+    "board": "arduino:avr:nano",
+    "configuration": "cpu=atmega328old",
+    "port": "/dev/cu.usbserial-AL02YBVM"
+}

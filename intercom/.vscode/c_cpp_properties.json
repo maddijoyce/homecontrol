@@ -1,0 +1,43 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "/Users/maddi/Library/Arduino15/packages/arduino/tools/**",
+                "/Users/maddi/Library/Arduino15/packages/arduino/hardware/avr/1.6.23/**",
+                "/System/Library/Frameworks/Kernel.framework/Versions/A/Headers",
+                "/Applications/Arduino.app/Contents/Java/libraries",
+                "/Applications/Arduino.app/Contents/Java/hardware/tools/avr/avr/include",
+                "/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino",
+                "/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/variants/standard",
+                "/Applications/Arduino.app/Contents/Java/tools/**",
+                "/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/**",
+                "/Users/maddi/Documents/Arduino/libraries/Radio",
+                "/Users/maddi/Documents/Arduino/libraries/Radio/**"
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": false,
+                "path": [
+                    "/System/Library/Frameworks/Kernel.framework/Versions/A/Headers",
+                    "/Applications/Arduino.app/Contents/Java/",
+                    "/Users/maddi/Documents/Arduino/libraries"
+                ]
+            },
+            "forcedInclude": [
+                "/Users/maddi/Library/Arduino15/packages/arduino/hardware/avr/1.6.23/cores/arduino/Arduino.h"
+            ],
+            "macFrameworkPath": [
+                "/System/Library/Frameworks",
+                "/Library/Frameworks"
+            ],
+            "intelliSenseMode": "clang-x64",
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "defines": [
+                "USBCON"
+            ]
+        }
+    ],
+    "version": 4
+}
