@@ -1,7 +1,7 @@
 {
-  "name": "@mj/homebridge-maroubra",
+  "name": "homebridge-homecontrol",
   "version": "0.1.0",
-  "main": "index.js",
+  "main": "bridge/index.js",
   "license": "MIT",
   "dependencies": {
     "serialport": "7.0.2"
